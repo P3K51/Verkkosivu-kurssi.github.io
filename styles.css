@@ -1,0 +1,65 @@
+header, footer {
+    background-color: aquamarine;
+    color: brown;
+    padding: 1em;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    clear: left;
+    border: 2px solid red;
+    border-radius: 25px;
+}
+
+nav {background-color: bisque;
+padding: 1em;
+color: black;
+border: 2px solid red;
+border-radius: 25px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.wrapper >div{
+    flex: 1;
+    text-align: center;
+}
+
+.para {background-color: rgb(124, 75, 14);
+  padding: 2em;
+  color: black;
+  border: 20px solid rgb(0, 4, 255);
+  border-radius: 15px 50px;
+  font-weight: bolder;
+  }
+
+figure {
+    border: thin #3abb1a solid;
+    display: flex;
+    flex-flow: column;
+    padding: 1em;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  img {
+    max-width: 600px;
+    max-height: 400px;
+  }
+  
+  figcaption {
+    background-color: #298538;
+    color: #0a0505;
+    font: italic smaller sans-serif;
+    padding: 2em;
+    text-align: center;
+  }
+  
+  p {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-right: 650px;
+    margin-left: 10px;
+  }
+
